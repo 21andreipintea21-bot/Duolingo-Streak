@@ -20,7 +20,7 @@ try {
 	).then((response) => response.json());
 
 	let xp = 0;
-	for (let i = 0; i < 90 process.env.LESSONS; i++) {
+	for (let i = 0; i < 10; i++) {
 		await duo.getClassicXP();
 	}
 		const session = await fetch(
